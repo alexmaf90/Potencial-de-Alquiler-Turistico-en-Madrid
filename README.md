@@ -45,7 +45,7 @@ Se han identificado algunos barrios que ofrecen una relación coste-ingresos fav
 
 El número óptimo de huéspedes está en 3 personas. No hay mucha diferencia con viviendas de 0 a 3 personas. A partir de 5 el piso necesita ser mayor y el precio de compra se incrementa bastante.
 
-![Gráfico de Inmuebles y Número de Huéspedes](images/grafico_huespedes.png)
+![Distancia puntos de interés: Puerta del Sol](Distancia_a_sol.png)
 
 ### 3. Buscar inmuebles que no estén necesariamente cerca de puntos de interés
 
@@ -56,6 +56,14 @@ La cercanía a puntos de interés no parece tener un impacto significativo en el
 ### Evaluación del Desarrollo de un Nuevo Producto basado en el Alquiler para Momentos concretos de Alto Interés Deportivo
 
 Buscar oportunidades en el barrio de San Blas. Todavía existen muchos alquileres que no están explotando este potencial.
+
+![Alquileres Barrio de San Blás](Distancia_Wanda_Metropolitano.png)
+
+**Leyenda de Precios (de menor a mayor):**  
+Morado - Azul - Naranja - Rojo
+
+En el gráfico se representa el precio promedio de alquiler en el bariro de San-Blás, donde los colores indican los rangos de precios desde menor a mayor. 
+La presencia de muchos puntos en colores morados y azules sugiere que aún hay potencial para explotar más el factor de los eventos deportivos cerca del estadio Wanda Metropolitano. 
 
 #### Disclaimer:
 

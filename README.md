@@ -39,7 +39,7 @@ Se han identificado algunos barrios que ofrecen una relación coste-ingresos fav
 **Medio-alto:** Jerónimos, El Viso  
 **Alto:** Recoletos, Castellana  
 
-![Gráfico de Barrios con Potencial de Inversión](images/grafico_barrios.png)
+![Precio alquiler por Barrio](Precio_por_barrio.png)
 
 ### 2. Buscar inmuebles de una habitación que permitan 3 huéspedes
 

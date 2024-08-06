@@ -1,6 +1,6 @@
 # Informe Ejecutivo: Análisis de Inversión Inmobiliaria en Madrid
 
-Este informe ejecutivo resume los hallazgos clave de un análisis de Discovery realizado con los datos sobre alquileres disponibles en la web de Airbnb [Inside Airbnb](https://insideairbnb.com/get-the-data/). El objetivo principal del análisis es proporcionar información estratégica para dirigir la búsqueda de oportunidades de inversión inmobiliaria en la ciudad de Madrid, con un enfoque en el alquiler turístico.
+Este informe informe muestra los insights hallados tras un análisis de Discovery realizado con los datos sobre alquileres disponibles en la web de Airbnb [Inside Airbnb](https://insideairbnb.com/get-the-data/). El objetivo principal del análisis es proporcionar información estratégica para dirigir la búsqueda de oportunidades de inversión inmobiliaria en la ciudad de Madrid, con un enfoque en el alquiler turístico.
 
 ## Contexto del Análisis
 

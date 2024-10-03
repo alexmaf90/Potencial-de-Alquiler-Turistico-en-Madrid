@@ -1,73 +1,72 @@
-# Informe Ejecutivo: Análisis de Inversión Inmobiliaria en Madrid
+# **Real Estate Investment Analysis in Madrid**
 
-Este informe informe muestra los insights hallados tras un análisis de Discovery realizado con los datos sobre alquileres disponibles en la web de Airbnb [Inside Airbnb](https://insideairbnb.com/get-the-data/). El objetivo principal del análisis es proporcionar información estratégica para dirigir la búsqueda de oportunidades de inversión inmobiliaria en la ciudad de Madrid, con un enfoque en el alquiler turístico.
+This report presents key insights from an exploratory analysis using Airbnb rental data from [Inside Airbnb](https://insideairbnb.com/get-the-data/). The primary objective is to provide strategic information to guide real estate investment opportunities in Madrid, with a focus on short-term rental markets.
 
-## Contexto del Análisis
+## **Context**
 
-Se ha seleccionado Madrid como la ciudad objetivo para invertir en inmuebles con el fin de obtener rentabilidad a través del alquiler turístico. Antes de iniciar la búsqueda de propiedades, se ha realizado un análisis de Discovery para identificar estrategias que guíen el trabajo del equipo de valoraciones. Al no disponer en la base de datos de los precios de las viviendas, se han estimado utilizando la siguiente lógica:
+Madrid was selected as the target city for real estate investment with the aim of generating income through short-term rentals. An exploratory analysis was conducted to guide the valuation team in their search for investment opportunities. Since the database does not provide property purchase prices, we estimated prices using the following assumptions:
 
-- Una habitación: m2 = 60
-- Dos habitaciones: m2 = 70
-- Tres habitaciones: m2 = 90
-- Cuatro habitaciones: m2 = 120
-- Cinco o más habitaciones: m2 = 150
+- 1 bedroom: 60 m²
+- 2 bedrooms: 70 m²
+- 3 bedrooms: 90 m²
+- 4 bedrooms: 120 m²
+- 5+ bedrooms: 150 m²
 
-Posteriormente se ha multiplicado el precio por metro cuadrado de cada distrito con datos de Idealista por los metros cuadrados estimados de la vivienda. La tecnología utilizada para el análisis ha sido Python.
+These estimates were multiplied by the price per square meter for each district (data from Idealista). The analysis was conducted using **Python**.
 
-## Objetivos
+## **Objectives**
 
-- Analizar fuentes de datos públicas para comprender el mercado inmobiliario en Madrid.
-- Identificar insights que orienten la búsqueda de oportunidades de inversión.
-- Enfocarse en aspectos clave como el precio del alquiler por noche, niveles de ocupación y precio de compra de los inmuebles.
+- Analyze public data sources to understand the real estate market in Madrid.
+- Identify strategic insights to guide investment opportunities.
+- Focus on key aspects such as rental price per night, occupancy levels, and property purchase prices.
 
-## Conclusiones Ejecutivas
+## **Key Findings**
 
-- Se han identificado algunos barrios con alto potencial de inversión.
-- Se recomienda buscar inmuebles con capacidad para alojar 3 huéspedes.
-- No es necesario que las propiedades estén cerca de puntos de interés en los barrios identificados.
-- Se sugiere considerar el desarrollo de un nuevo producto de alquiler para eventos deportivos en el barrio de San Blas.
+- Identified several districts with high investment potential.
+- Properties suitable for 3 guests are the most profitable.
+- Proximity to tourist attractions is not a key factor in the identified districts.
+- Explore developing rental products for sporting events in the San Blas district.
 
-## Detalle de los Principales Resultados
+## **Main Results**
 
-### 1. Existen 12 barrios con buen potencial de inversión
+### 1. 12 Districts with High Investment Potential
 
-Se han identificado algunos barrios que ofrecen una relación coste-ingresos favorable para la inversión. Estos barrios se pueden clasificar en 4 grupos según la calidad del inmueble:
+We identified districts that offer a favorable cost-income ratio for real estate investment. These districts were grouped by property quality:
 
-**Bajo:** San Andrés, San Diego, Opañel  
-**Medio-Bajo:** Hellín, Rosas, Simancas, posiblemente los 3 sean de San Blas  
-**Medio:** Valdemarín, Atocha  
-**Medio-alto:** Jerónimos, El Viso  
-**Alto:** Recoletos, Castellana  
+**Low**: San Andrés, San Diego, Opañel  
+**Lower-Middle**: Hellín, Rosas, Simancas (likely in San Blas)  
+**Middle**: Valdemarín, Atocha  
+**Upper-Middle**: Jerónimos, El Viso  
+**High**: Recoletos, Castellana  
 
-![Precio alquiler por Barrio](Precio_por_barrio.png)
+![Rental Price by District](Precio_por_barrio.png)
 
-### 2. Buscar inmuebles de una habitación que permitan 3 huéspedes
+### 2. Focus on 1-Bedroom Properties for 3 Guests
 
-El número óptimo de huéspedes está en 3 personas. No hay mucha diferencia con viviendas de 0 a 3 personas. A partir de 5 el piso necesita ser mayor y el precio de compra se incrementa bastante.
+Properties that accommodate 3 guests are optimal. There is little difference in profitability between 0-3 guests, but for properties accommodating 5 or more, the property size and purchase price increase significantly.
 
-![Precio por Huesped](Precio_por_huesped.png)
+![Price by Guest](Precio_por_huesped.png)
 
-### 3. Buscar inmuebles que no estén necesariamente cerca de puntos de interés
+### 3. Proximity to Attractions is Not Crucial
 
-La cercanía a puntos de interés no parece tener un impacto significativo en el precio del alquiler, por ejemplo la cercanía con la Puerta del Sol.
+Proximity to major tourist attractions (e.g., Puerta del Sol) does not significantly impact rental prices in the identified districts.
 
-![Distancia puntos de interés: Puerta del Sol](Distancia_a_sol.png)
+![Distance to Puerta del Sol](Distancia_a_sol.png)
 
-### Evaluación del Desarrollo de un Nuevo Producto basado en el Alquiler para Momentos concretos de Alto Interés Deportivo
+### 4. Potential for Sports Event Rentals in San Blas
 
-Buscar oportunidades en el barrio de San Blas. Todavía existen muchos alquileres que no están explotando este potencial.
+Explore opportunities in San Blas, where many properties are not yet capitalizing on the demand for sports-related rentals near the Wanda Metropolitano Stadium.
 
-![Alquileres Barrio de San Blás](Distancia_Wanda_Metropolitano.png)
+![San Blas Rentals](Distancia_Wanda_Metropolitano.png)
 
-**Leyenda de Precios (de menor a mayor):**  
-Morado - Azul - Naranja - Rojo
+**Price Legend (Low to High)**:  
+Purple - Blue - Orange - Red
 
-En el gráfico se representa el precio promedio de alquiler en el bariro de San-Blás, donde los colores indican los rangos de precios desde menor a mayor. 
-La presencia de muchos puntos en colores morados y azules sugiere que aún hay potencial para explotar más el factor de los eventos deportivos cerca del estadio Wanda Metropolitano. 
+The map shows the average rental price in San Blas, with colors representing price ranges. The large number of purple and blue points indicates untapped potential for sports-event-related rentals near Wanda Metropolitano Stadium.
 
-#### Disclaimer:
+## **Disclaimer**
 
-Este proyecto no pretende ofrecer recomendaciones de inversión. Los resultados y conclusiones aquí presentados son producto de un análisis de datos y deben ser interpretados con precaución.
+This project does not provide investment recommendations. The results and conclusions are based on data analysis and should be interpreted with caution.
 
 
 

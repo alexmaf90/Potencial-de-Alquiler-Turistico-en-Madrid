@@ -2,6 +2,8 @@
 
 This report presents key insights from an exploratory analysis using Airbnb rental data from [Inside Airbnb](https://insideairbnb.com/get-the-data/). The primary objective is to provide strategic information to guide real estate investment opportunities in Madrid, with a focus on short-term rental markets.
 
+The complete analysis can be found in the Python notebooks.
+
 ## **Context**
 
 Madrid was selected as the target city for real estate investment with the aim of generating income through short-term rentals. An exploratory analysis was conducted to guide the valuation team in their search for investment opportunities. Since the database does not provide property purchase prices, we estimated prices using the following assumptions:
